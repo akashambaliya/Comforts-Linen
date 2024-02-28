@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.container{
+    margin: 0 210px;
+}
+.announcement_bar{
+    background-color: #432b8d;
+}
+.announcement_bar p{
+    text-align: center;
+    padding: 8px;
+    color: white;
+    margin: 0;
+}
+.media_bar{
+    background-color: #dfdced;
+}
+.media_icon{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    /* column-gap: 15px; */
+    align-items: center;
+}
+.media_icon li{
+    padding: 10px;
+}
+.media_icon li a{
+    text-decoration: none;
+}
+header{
+    margin: 0 120px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.hover:hover{
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+.slider_container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider_font{
+    position: absolute;
+    max-width: 880px;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    transform: translate(55%, 45%);
+}
+
+.slider_font h3{
+    font-size: 5vw;
+    color: #432b8d;
+    margin: 0;
+}
+.slider_font p{
+    font-size: 1.2vw;
+    color: #191919;
+}
+button{
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #02e0c0;
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.satisfaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 210px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #c2c2c2;
+}
+
+.satisfaction_item {
+    text-align: center;
+}
+.satisfaction_item h2{
+    font-size: 3vw;
+    color: #432b8d;
+    margin: 0;
+    text-align: center;
+}
+
+.satisfaction_item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.satisfaction_item p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0;
+}

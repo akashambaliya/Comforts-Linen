@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ComfortsLinen.css">
+    <link rel="stylesheet" href="./js/ComfLinen.js">
+    <title>Comforts Linen</title>
+</head>
+<body>
+<div>
+    <div class="announcement_bar">
+        <p>SALE ENDS MONDAY: Get 10% off your entire order when you buy a mattress for your best sleep ever</p>
+    </div>
+    <div class="media_bar">
+        <ul class="media_icon">
+            <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/insta.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/youtube.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/linkin.png" alt=""></a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact +91 85880 52247</a></li>
+        </ul>
+    </div>
+    <section>
+        <header>
+            <div class="logo">
+                <a href=""><img src="./img/Logo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul class="media_icon">
+                    <li><a class="hover" href="#">Bed Sheets</a></li>
+                    <li><a class="hover" href="#">Fitted Sheet</a></li>
+                    <li><a class="hover" href="#">Comforters</a></li>
+                    <li><a class="hover" href="#">Duvet Cover</a></li>
+                    <li><a class="hover" href="#">Mattress Protector</a></li>
+                    <li><a class="hover" href="#">Pillow & Covers</a></li>
+                    <li><a class="hover" href="#">Colors</a></li>
+                    <li><a class="hover" href="#">Combo Offers</a></li>
+                </ul>
+            </nav>
+            <div class="nav_icon">
+                <ul class="media_icon">
+                    <li><a href="#"><img src="./img/search.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/account.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/cart.png" alt=""></a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+    <div class="slider_container">
+        <div class="slider">
+            <div class="slide">
+                <img src="./img/slider_1.png" alt="Image 1">   
+            </div>
+            <div class="slide">
+                <img src="./img/slider_2.png" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="./img/slider_3.png" alt="Image 3">
+            </div>
+        </div>
+        <div class="slider_font">
+            <h3>10% off Entire order With Sheet Set</h3>
+            <p>Lorem ipsum dolor imut lorem ipsum dolor imut</p>
+            <div class="button">
+                <button>Shop now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="satisfaction">
+        <div class="satisfaction_item">
+            <h2>10000+</h2>
+            <p>Happy Customers</p>
+        </div>
+        <div class="satisfaction_item">
+            <h2>3+ YEARS</h2>
+            <p>of Customer Satisfaction</p>
+        </div>
+        <div class="satisfaction_item">
+            <h2>4 OUT 5</h2>
+            <p>Customer Sleep Better On Comforts Linen</p>
+        </div>
+        <div class="satisfaction_item">
+            <h2>3+ YEARS</h2>
+            <p>Of Dedicated Research</p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    let currentIndex = 0;
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlider();
+    }
+
+    function updateSlider() {
+        const offset = -currentIndex * 100;
+        slider.style.transform = `translateX(${offset}%)`;
+    }
+
+    setInterval(nextSlide, 2000);
+</script>
+
+</body>
+</html>
