@@ -47,18 +47,17 @@ header{
     padding-bottom: 5px;
 }
 
+
 .slider_container {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 .slider {
     width: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
-
 .slide {
     flex: 0 0 100%;
     max-width: 100%;
@@ -67,16 +66,15 @@ header{
     width: 100%;
     height: 100%;
 }
-
 .slider_font{
     position: absolute;
     max-width: 880px;
     text-align: center;
     margin: auto;
     top: 0;
-    transform: translate(55%, 45%);
+    right: 50%;
+    transform: translate(50%, 50%);
 }
-
 .slider_font h3{
     font-size: 5vw;
     color: #432b8d;
@@ -100,30 +98,98 @@ button{
 .satisfaction {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 65px 210px;
-    padding-bottom: 40px;
+    margin: 70px 270px;
     border-bottom: 3px solid #c2c2c2;
-}
-
-.satisfaction_item {
     text-align: center;
 }
 .satisfaction_item h2{
     font-size: 3vw;
     color: #432b8d;
-    margin: 0;
+    margin: 0; 
+}
+.satisfaction_details,.product_details{
+    color: #191919;
+    font-size: 1vw;    
+}
+
+.product{
+    margin: 0 270px;
+}
+.product_item{
     text-align: center;
 }
-
-.satisfaction_item img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
+.heading,.comforts_heading{
+    font-size: 2vw;
+    color: #432b8d;
+    margin: 0;
+}
+.product_main img,.sheet_main img{
+   width: 100%;
+}
+.product_main,.sheet_main{
+    position: relative;
+    width: 100%;
+}
+.product_details{
+    margin: 10px;
+    width: 300px;
+}
+.sheet_details{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+.sub_sheet{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%, -50px);
+}
+.sheet_product{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
 }
 
-.satisfaction_item p {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 0;
+.comforts{
+    position: relative;
+    margin-top: 80px;
+}
+/* .comforts img{
+    width: 100%;
+    height: 608px;
+} */
+.comforts_detail{
+    position: absolute;
+    background-color: #221352;
+    width: 1092px;
+    height: 324px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    opacity: 79%;
+}
+.comforts_heading{
+    color: white;
+}
+.comforts_item{
+    text-align: center;
+    margin: 30px;
+}
+.comforts_details{
+    color: white;
+    margin: 5px;
+    font-size: 17px;
+}
+.point_icon{
+    list-style: none;
+    color: white;
+    font-size: 1vw;
+}
+.point_icon li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

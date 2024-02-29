@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/ComfortsLinen.css">
-    <link rel="stylesheet" href="./js/ComfLinen.js">
+    
     <title>Comforts Linen</title>
 </head>
 <body>
 <div>
     <div class="announcement_bar">
-        <p>SALE ENDS MONDAY: Get 10% off your entire order when you buy a mattress for your best sleep ever</p>
+        <p id="announcement">SALE ENDS MONDAY: Get 10% off your entire order when you buy a mattress for your best sleep ever</p>
     </div>
     <div class="media_bar">
         <ul class="media_icon">
@@ -75,41 +75,110 @@
     <div class="satisfaction">
         <div class="satisfaction_item">
             <h2>10000+</h2>
-            <p>Happy Customers</p>
+            <div class="satisfaction_details"><p>Happy Customers</p></div>
         </div>
         <div class="satisfaction_item">
             <h2>3+ YEARS</h2>
-            <p>of Customer Satisfaction</p>
+            <div class="satisfaction_details"><p>of Customer Satisfaction</p></div>
         </div>
         <div class="satisfaction_item">
             <h2>4 OUT 5</h2>
-            <p>Customer Sleep Better On Comforts Linen</p>
+            <div class="satisfaction_details"><p>Customer Sleep Better <br> On Comforts Linen</p></div>
         </div>
         <div class="satisfaction_item">
             <h2>3+ YEARS</h2>
-            <p>Of Dedicated Research</p>
+            <div class="satisfaction_details"><p>Of Dedicated Research</p></div>
         </div>
     </div>
+
+    <section class="product">
+        <div class="product_item">
+            <h3 class="heading">Best Selling</h3>
+            <p class="satisfaction_details">Energize Your room, With A sheet built for Luxury Comfort</p>
+        </div>
+        <div class="product_main">
+            <img src="./img/product_image1.png" alt="">
+            <div class="sheet_details">
+                <h3 class="heading">4 Piece Sheet Set</h3>
+                <p class="product_details">Happiness is to have the best sleep on excellent sheets</p>
+                <div class="button">
+                    <button>Shop now</button>
+                </div>
+            </div>
+        </div>
+        <div class="sheet_product">
+            <div class="sheet_main">
+                <img src="./img/product_image2.png" alt="">
+                <div class="sub_sheet">
+                    <h3 class="heading">Duvet Cover</h3>
+                    <p class="product_details">Happiness is to have the best sleep on excellent sheets</p>
+                    <div class="button">
+                        <button>Shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sheet_main">
+                <img src="./img/product_image3.png" alt="">
+                <div class="sub_sheet">
+                    <h3 class="heading">Flat Sheet</h3>
+                    <p class="product_details">Happiness is to have the best sleep on excellent sheets</p>
+                    <div class="button">
+                        <button>Shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sheet_main">
+                <img src="./img/product_image4.png" alt="">
+                <div class="sub_sheet">
+                    <h3 class="heading">Comforter</h3>
+                    <p class="product_details">Happiness is to have the best sleep on excellent sheets</p>
+                    <div class="button">
+                        <button>Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comforts">
+        <img src="./img/bed_image.png" alt="Image Not Found">
+        <div class="comforts_detail">
+            <div class="comforts_item">
+                <h3 class="comforts_heading">Why Comforts Linen</h3>
+                <p class="comforts_details">Let’s list the reasons.</p>
+            </div>
+            <ul class="point_icon">
+                <li><img src="./img/point_icon.png" alt=""> We're fanatical about the quality of our sheets</li>
+                <li><img src="./img/point_icon.png" alt="">We're obsessed with ensuring you're happy</li>
+                <li><img src="./img/point_icon.png" alt="">We LOVE helping customers get more comfortable</li>
+                <li><img src="./img/point_icon.png" alt="">Our luxury products are priced 60% lower than retail</li>
+            </ul>
+        </div>
+        
 </div>
 
 
-<script>
-    const slider = document.querySelector('.slider');
-    const slides = document.querySelectorAll('.slide');
-    let currentIndex = 0;
 
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        updateSlider();
-    }
 
-    function updateSlider() {
-        const offset = -currentIndex * 100;
-        slider.style.transform = `translateX(${offset}%)`;
-    }
 
-    setInterval(nextSlide, 2000);
-</script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/script.js"></script>
 </body>
 </html>
