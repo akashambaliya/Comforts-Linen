@@ -144,6 +144,32 @@
     .comforts_heading{
         font-size: 20px;
     }
+    .footer_section{
+        position: relative;
+    }
+    .logo_details{
+        display: flex;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+    }
+    .logo_details img {
+        margin: 15px;
+    }
+    .search input {
+        padding: 12px;
+    }
+    .comforts_details { 
+        font-size: 18px;
+    }
+    .footer_button{
+        padding: 14px 5px;
+        font-size: 12px;
+    }
+    .footer_menu{
+        position: absolute;
+        top: 160px;
+    }
 }
 
 
