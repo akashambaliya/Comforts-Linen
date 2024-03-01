@@ -149,6 +149,7 @@ button{
 }
 .sheet_product{
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-top: 10px;
 }
@@ -181,15 +182,171 @@ button{
 .comforts_details{
     color: white;
     margin: 5px;
-    font-size: 17px;
+    font-size: 20px;
 }
 .point_icon{
     list-style: none;
     color: white;
     font-size: 1vw;
+    margin: auto;
+    width: 40%;
+    padding: 0;
 }
 .point_icon li{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 25px;
+}
+.product_info{
+    text-align: center;
+    margin: 80px ;
+}
+.product_EMI img{
+    margin: 20px;
+}
+.review_card{
+    text-align: center;
+}
+.review_box{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.review {
+    position: relative;
+    width: 375px;
+    height: 290px;
+    text-align: center;
+    border: 3px solid #f6f7f8;
+    border-radius: 5px;
+}
+.cus_review{
+    margin: 15px;
+}
+.review img {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+.review_name{
+    font-size: x-large;
+    display: block;
+    margin-top: 80px;
+}
+.left_arrow img,.product_left_arrow img{
+    padding: 5px;
+    background-color: #02e0c0;
+    border-radius: 50%;
+}
+.right_arrow img,.product_right_arrow img{
+    padding: 5px;
+    background-color: #02e0c0;
+    border-radius: 50%;
+}
+.button_review{
+    margin: 50px;
+}
+.new_launches{
+    padding: 50px 0;
+}
+.sheet_group{
+    margin: 50px 270px;
+}
+.new_product{
+    background-color: #f7f7f7;
+    height: 808px;
+    margin-top: 100px;
+    text-align: center;
+}
+.product_left_arrow img,.product_right_arrow img{
+    background-color: #444444;
+}
+.customer_form{
+    text-align: center;
+}
+.title {
+    width: 50%;
+}
+.title input {
+    padding: 15px 10px;
+    width: 100%;
+    border: 2px solid #cccccc;
+}
+.name_email{
+    display: flex;
+    gap: 70px;
+}
+.title_textarea{
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: 2px solid #cccccc;
+}
+.button{
+    text-align: center;
+}
+footer{
+    height: 443px;
+    background-color: #190d3a;
+    color: white;
+}
+.copy_rights{
+    display:flex;
+    align-items: center;
+    height: 68px;
+    background-color: #110532;
+    color: white;
+}
+.copy_rights p{
+    margin: 0%;
+    margin-left: 200px;
+}
+.search input{
+    padding: 15px;
+    /* width: 15%; */
+}
+.footer_section{
+    padding: 70px 0;
+    gap: 140px;
+}
+.logo_details img{
+    margin: 15px 0;
+}
+.footer_button{
+    background-color: #3f1966;
+    border-radius: 0;
+    padding: 16px 10px;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.footer_icon{
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0;
+}
+.footer_icon li{
+    padding: 0;
+}
+.footer_media{
+    display: block;
+    padding: 0%;
+    margin-top: 15px;
+}
+.footer_media a{
+    color: #e0dfe5;
+}
+.footer_media a:hover{
+    border-bottom: 1px solid #e0dfe5;
+    padding-bottom: 3px;
+}
+
+.footer_menu{
+    gap: 100px;
 }
