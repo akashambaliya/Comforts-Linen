@@ -5,6 +5,9 @@ body{
 .flex{
     display: flex;
 }
+.menu{
+    display: none;
+}
 .container{
     margin: 0 210px;
 }
@@ -291,7 +294,7 @@ textarea {
     text-align: center;
 }
 footer{
-    height: 443px;
+    /* height: 443px; */
     background-color: #190d3a;
     color: white;
 }
@@ -348,4 +351,24 @@ footer{
 
 .footer_menu{
     gap: 100px;
+}
+.res_nav{
+    background-color: #190d3a;
+    top: 120px;
+    position: absolute;
+    left: 18px;
+    width: 100%;
+}
+.res_media{
+    
+    font-size: larger;
+    list-style: none;
+    padding: 5px;
+}
+.res_media a{
+    text-decoration: none;
+    color: white;
+}
+.res_media li{
+    padding: 5px;
 }

@@ -38,3 +38,14 @@ function updateSlider() {
 
 setInterval(nextSlide, 2000);
 
+// <======================Menu===========================>
+
+function AccountMenu(){
+  var res_nav = document.getElementById('res_nav');
+
+  if(res_nav.style.display === 'none'){
+    res_nav.style.display = 'block';
+  }else{
+    res_nav.style.display = 'none';
+  }
+}

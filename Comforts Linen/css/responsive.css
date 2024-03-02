@@ -1,6 +1,7 @@
 
 
 @media only screen and (max-width: 1800px){
+   
     .media_icon{
         padding: 0%;
     }
@@ -11,6 +12,9 @@
         margin: 10px;
         width: 250px;
     }
+    .footer_section {
+        margin: 0px 50px;
+    }
     .sheet_group {
         margin: 50px 200px;
     }
@@ -19,27 +23,32 @@
     }
 }
 @media(max-width:1600px){
-   header{
+   
+    header{
     margin: 0px;
-   }
-   .sheet_group {
+    }
+    .footer_section {
+         margin: 0px 50px;
+    }
+    .sheet_group {
         margin: 50px 50px;
     }
 
 
 }
 @media(max-width:1439px){
+    
     .media_icon {
         font-size: medium;
     }
     button {
         font-size: 12px;
     }
-   .heading, .comforts_heading {
-        /* font-size: 1vw; */
-    }
     .product {
         margin: 100px 50px;
+    }
+    .footer_section{
+        margin: 0 50px;
     }
     .sheet_group {
         margin: 50px 30px;
@@ -49,14 +58,33 @@
     }
     .satisfaction_details, .product_details {
         color: #191919;
-        font-size:  ;
     }
 
 }
 
-
+@media(max-width:1201px){
+    .review_box{
+        gap: 5px;
+    }
+}
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .menu{
+        display: none;
+    }
+    .res_nav{
+        display: none;
+    }
+    .media_icon img{
+        width: 18px;
+    }
+    .media_icon li {
+        padding: 7px;
+    }
+    header {
+        padding: 10px;
+
+    }
     .satisfaction{
         margin: 70px 200px;
     }
@@ -73,9 +101,14 @@
         font-size: 18px;
         width: 230px;
     }
-    
+    .review_box{
+        gap: 5px;
+    }
     .product {
          margin: 100px 10px;
+    }
+    .footer_section {
+        margin: 0px 50px;
     }
     .point_icon{
         font-size:  initial;
@@ -89,7 +122,21 @@
 
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
-    
+    .menu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .media_icon {
+        font-size: 15px;
+    }
+    .media_icon img {
+        width: 15px;
+    }
+    .media_icon li {
+        padding: 5px;
+    }
     .satisfaction{
         margin: 50px 50px;
         border-bottom: 2px solid #c2c2c2;
@@ -113,9 +160,8 @@
     .review_heading{
         margin-bottom: 90px;
     }
-    .product_details{
-        font-size: 15px;
-        width: 200px;
+    .product_details {
+        font-size: 18px;
     }
     .product_EMI img {
         width: 100%;
@@ -135,6 +181,9 @@
     .new_product{
         margin: 0;
     }
+    .review_box{
+        gap: 10px;
+    }
     .sheet_group {
         margin: 50px 0px;
     }
@@ -143,6 +192,9 @@
     }
     .comforts_heading{
         font-size: 20px;
+    }
+    footer{
+        height: 443px;
     }
     .footer_section{
         position: relative;
@@ -162,6 +214,15 @@
     .comforts_details { 
         font-size: 18px;
     }
+    .name_email{
+        gap: 20px;
+    }
+    .title input {
+        width: 94%;
+    }
+    textarea {
+        width: 96%;
+    }
     .footer_button{
         padding: 14px 5px;
         font-size: 12px;
@@ -174,15 +235,134 @@
 
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
+    .menu{
+        display: block;
+    }
+    .media_icon li {
+        padding: 10px;
+    }
+    .media_icon {
+        font-size: 15px;
+    }
+    .media_icon img{
+        width: 15px;
+    }
+    nav{
+        display: none;
+    }
+    .slider_font p {
+        font-size: 8px;
+    }
+    .satisfaction{
+        margin: 30px 35px;
+        border-bottom: 2px solid #c2c2c2;
+    }
+    .satisfaction_details{
+        font-size: 8px;
+    }
+    .res_pro{
+        margin: 30px 0px;
+    }
+    .heading{
+        font-size: 6vw;
+    }
+    .satisfaction_details{
+        font-size: 15px;
+    }
+    .product_details {
+        margin: 10px;
+        width: 100%;
+        font-size: larger;
+    }
+    .sheet_details{
+        transform: translate(0%, -58%);
+    }
+    button {
+        font-size: 15px;
+        padding: 8px 15px;
+        border-radius: 7px;
+    }
+    .sheet_product {
+        display: block;
+    }
+    .sub_sheet{
+        top: 35%;
+    }
+    .comforts {
+        margin-top: 35px;
+    }
+    .comforts_detail{
+        width: 70%;
+        height: auto;
+    }
+    .comforts_heading{
+        font-size: 4vw;
+    }
+    .comforts_details{
+        font-size: 10px;
+    }
+    .comforts_item{
+        margin: 0px
+    }
+    .point_icon img{
+        width: 15px;
+    }
+    .point_icon li {
+        gap: 5px;
+        margin: 5px;
+        font-size: 12px;
+    }
+    .product_info{
+        margin: 15px;
+    }
+    .product_EMI img{
+        width: 100%;
+        margin: 10px;
+    }
+    .review{
+        width: auto;
+        height: 220px;
+        margin: inherit;
+    }
+    .review_box{
+        display: block;
+        margin: 65px 0px;
+    }
+    .button_review {
+        margin: 10px;
+    }
+    .sheet_group{
+        margin: 25px 20px;
+    }
+    name_email {
+        gap: 30px;
+    }
+    .footer_section{
+        display: block;
+        margin: 0;
+        padding: 10px 5px;
+    }
+    .footer_menu {
+        gap: 20px;
+        
+    }
 
+    .copy_rights p {
+        margin: 0%;
+        padding: 5px
+    }
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
-
+    .menu{
+        display: block;
+    }
     .media_icon li {
         padding: 5px;
     }
+    
+    
     .media_icon{
         font-size: 8px;
     }
@@ -211,8 +391,12 @@
     .satisfaction_details, .product_details{
         font-size: 8px;
     }
+    .product_details {
+        font-size: 15px;
+        width: 250px;
+    }
     .sheet_details{
-        transform: translate(12%, -58%);
+        transform: translate(0%, -58%);
     }
     button {
         font-size: 8px;
@@ -249,5 +433,42 @@
         gap: 5px;
         margin: 5px;
         font-size: 6px;
+    }
+    .product_info{
+        margin: 15px;
+    }
+    .product_EMI img{
+        width: 100%;
+        margin: 10px;
+    }
+    .review{
+        width: auto;
+        height: 220px;
+        margin: inherit;
+    }
+    .review_box{
+        display: block;
+        margin: 65px 0px;
+    }
+    .button_review {
+        margin: 10px;
+    }
+    .sheet_group{
+        margin: 25px 20px;
+    }
+    .name_email {
+        gap: 30px;
+    }
+    .footer_section{
+        display: block;
+        margin: 0;
+        padding: 10px 5px;
+    }
+    .footer_menu {
+        gap: 20px;
+    }
+    .copy_rights p {
+        margin: 0%;
+        padding: 5px
     }
 }
