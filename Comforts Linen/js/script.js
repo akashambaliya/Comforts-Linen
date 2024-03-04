@@ -49,3 +49,32 @@ function AccountMenu(){
     res_nav.style.display = 'none';
   }
 }
+
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:20 ,
+      nav:true,
+    //   stagePadding:50,
+      responsive:{
+          320:{
+              reviews:1
+          },
+          600:{
+              reviews:2
+          },
+          900:{
+              reviews:3
+          }
+      }
+  });
+});
+
+
+
+AOS.init({
+  offset: 300,
+  duration: 500,
+
+});

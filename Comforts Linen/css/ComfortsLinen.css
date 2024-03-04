@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Poppins;
+}
 body{
     margin: 0;
 }
@@ -49,8 +53,6 @@ header{
     border-bottom: 2px solid;
     padding-bottom: 5px;
 }
-
-
 .slider_container {
     width: 100%;
     overflow: hidden;
@@ -76,7 +78,7 @@ header{
     margin: auto;
     top: 0;
     right: 50%;
-    transform: translate(50%, 50%);
+    transform: translate(50%, 15%);
 }
 .slider_font h3{
     font-size: 5vw;
@@ -95,9 +97,20 @@ button{
     color: black;
     border: none;
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer;   
 }
-
+button:hover{
+    background: #443d6e;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgb(255 255 255 / 20%);
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #ffffff;
+    transition: all 250ms linear;
+} 
+button:active{
+    transform: translateY(3px);
+}
 .satisfaction {
     display: flex;
     justify-content: space-between;
@@ -114,7 +127,6 @@ button{
     color: #191919;
     font-size: 1vw;    
 }
-
 .product{
     margin: 0 270px;
 }
@@ -156,30 +168,28 @@ button{
     gap: 15px;
     margin-top: 10px;
 }
-
 .comforts{
-    position: relative;
-    margin-top: 80px;
+    background-image: url(../img/bed_image.png);
+    background-repeat: no-repeat;
+    padding: 25px;
+    background-position: center;
+    background-attachment: fixed;
 }
-.comforts > img{
-    width: 100%;
+.point{
+    justify-content: center;
 }
 .comforts_detail{
-    position: absolute;
     background-color: #221352;
-    width: 1092px;
-    height: 324px;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50%, 50%);
     opacity: 79%;
+    bottom: 50%;
+    transform: translate(0%, 0%);
 }
 .comforts_heading{
     color: white;
 }
 .comforts_item{
     text-align: center;
-    margin: 30px;
+    padding: 20px;
 }
 .comforts_details{
     color: white;
@@ -190,8 +200,8 @@ button{
     list-style: none;
     color: white;
     font-size: 1vw;
-    margin: auto;
-    width: 40%;
+    /* margin: auto; */
+    /* width: 40%; */
     padding: 0;
 }
 .point_icon li{
@@ -292,6 +302,7 @@ textarea {
 }
 .button{
     text-align: center;
+    
 }
 footer{
     /* height: 443px; */
@@ -323,7 +334,7 @@ footer{
 .footer_button{
     background-color: #3f1966;
     border-radius: 0;
-    padding: 16px 10px;
+    padding: 15px 10px;
     position: absolute;
     font-size: 15px;
     color: white;
@@ -348,13 +359,12 @@ footer{
     border-bottom: 1px solid #e0dfe5;
     padding-bottom: 3px;
 }
-
 .footer_menu{
     gap: 100px;
 }
 .res_nav{
     background-color: #190d3a;
-    top: 120px;
+    top: 125px;
     position: absolute;
     left: 18px;
     width: 100%;
@@ -370,5 +380,52 @@ footer{
     color: white;
 }
 .res_media li{
-    padding: 5px;
+    padding: 7px;
+    border-bottom: 1px solid;
 }
+.owl-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.owl-prev{
+    position: absolute;
+    left: -50px;
+    top :50%
+}
+.owl-next{
+    position: absolute;
+    right: -50px;
+    top :50%;
+    color: #02e0c0;
+}   
+.owl-carousel .owl-item {
+display: flex;
+justify-content: center;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+.owl-carousel .owl-nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 40px;
+margin-top: 20px;
+}
+.owl-carousel .owl-nav button {
+background-color: #fff;
+border: none;
+cursor: pointer;
+outline: none;
+}
+.owl-carousel .owl-nav button:hover {
+background-color: #f0f0f0;
+}
+.owl-carousel .owl-nav button.owl-next {
+transform: scaleX(1);
+}
+.owl-carousel .owl-dots {
+display: none; /* Hide the dots navigation */
+}
+

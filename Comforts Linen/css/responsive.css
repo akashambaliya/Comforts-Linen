@@ -62,9 +62,19 @@
 
 }
 
-@media(max-width:1201px){
+@media(min-width:1201px){
     .review_box{
         gap: 5px;
+    }
+    .comforts{
+        padding: 100px;
+    }
+    .comforts_detail{
+        width: 70%;
+        margin: auto;
+    }
+    .point_icon li{
+        margin: 20px;
     }
 }
 
@@ -110,8 +120,15 @@
     .footer_section {
         margin: 0px 50px;
     }
+    .comforts{
+        padding: 70px;
+    }
+    .comforts_detail{
+        margin: auto;
+    }
     .point_icon{
         font-size:  initial;
+        margin: 0;
     }
     .new_product {
         background-color: #f7f7f7;
@@ -167,8 +184,8 @@
         width: 100%;
     }
     .comforts_detail{
-        width: 520px;
-        height: 190px;
+        width: auto;
+        height: auto;
     }
     .point_icon{
         width: 50%;
@@ -188,7 +205,7 @@
         margin: 50px 0px;
     }
     .comforts_item{
-        margin: 10px;
+        padding: 10px;
     }
     .comforts_heading{
         font-size: 20px;
@@ -239,7 +256,7 @@
         display: block;
     }
     .media_icon li {
-        padding: 10px;
+        padding: 3px;
     }
     .media_icon {
         font-size: 15px;
@@ -292,7 +309,7 @@
         margin-top: 35px;
     }
     .comforts_detail{
-        width: 70%;
+        /* width: 70%; */
         height: auto;
     }
     .comforts_heading{
@@ -301,8 +318,10 @@
     .comforts_details{
         font-size: 10px;
     }
+    
     .comforts_item{
-        margin: 0px
+        margin: 0px;
+        padding: 10px;
     }
     .point_icon img{
         width: 15px;
@@ -413,7 +432,7 @@
         margin-top: 35px;
     }
     .comforts_detail{
-        width: 70%;
+        /* width: 70%; */
         height: auto;
     }
     .comforts_heading{
@@ -424,7 +443,8 @@
     }
 
     .comforts_item{
-        margin: 0px
+        margin: 0px;
+        padding: 10px;
     }
     .point_icon img{
         width: 15px;
