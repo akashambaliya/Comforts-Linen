@@ -398,15 +398,15 @@ footer{
     top :50%;
     color: #02e0c0;
 }   
-.owl-carousel .owl-item {
+.owl-carousel {
 display: flex;
 justify-content: center;
 }
-.owl-carousel .owl-item img {
+.owl-carousel {
     display: block;
     width: auto;
 }
-.owl-carousel .owl-nav {
+.owl-carousel  {
 display: flex;
 justify-content: space-between;
 align-items: center;
